@@ -1,0 +1,40 @@
+# Secrets & credentials
+C2_Profiles/tailscale/tailscale/c2_code/config.json
+
+# Go build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+# Go module cache
+vendor/
+
+# Rust build artifacts
+target/
+*.rlib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp / build dirs
+*.tmp
+ts-*/
+tsnet-*/

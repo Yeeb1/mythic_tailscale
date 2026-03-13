@@ -1,0 +1,10 @@
+{
+    "auth_key": "tskey-auth-XXXX-XXXXXXXXXXXXXXXXXXXX",
+    "control_url": "",
+    "hostname": "mythic-c2",
+    "listen_port": "8080",
+    "api_key": "tskey-api-XXXX-XXXXXXXXXXXXXXXXXXXX",
+    "tailnet": "-",
+    "provider": "tailscale",
+    "tcp_port": "8081"
+}
