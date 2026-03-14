@@ -92,7 +92,7 @@ See [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md) for a complete protocol s
 | Agent | Language | Integration Method |
 |-------|----------|-------------------|
 | Cercopes | Go | Direct `tsnet` import |
-| Kassandra | Rust | Go FFI static library via `c-archive` |
+| [Kassandra](https://github.com/PatchRequest/Kassandra) | Rust | Go FFI static library via `c-archive` |
 
 ## Project Structure
 
