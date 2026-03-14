@@ -159,7 +159,3 @@ The DoH implementation patches tsnet's internal `dnscache` singleton (`dnscache.
 | `doh: custom` | `doh_url` build parameter | No — your own resolver |
 
 - See [IMPLEMENTATION_GUIDE.md](IMPLEMENTATION_GUIDE.md#opsec) for the full connection breakdown and implementation details
-
-## License
-
-See individual component licenses.
