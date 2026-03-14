@@ -1,6 +1,6 @@
 # Tailscale C2 for Mythic
 
-A Mythic C2 profile and demo agent that routes all command and control traffic over Tailscale/Headscale mesh VPN networks using WireGuard encryption.
+A [Mythic](https://github.com/its-a-feature/Mythic)  C2 profile and demo agent that routes all command and control traffic over Tailscale/Headscale mesh VPN networks using WireGuard encryption.
 
 ## Components
 
@@ -13,6 +13,8 @@ A Mythic C2 profile that runs a Go server inside a Tailscale network. The server
 - Generates **ephemeral pre-auth keys** per payload at build time
 - Agents join the tailnet as ephemeral nodes — automatically cleaned up on disconnect
 - All traffic encrypted by WireGuard at the transport layer
+
+> **For authorized security testing and research only.**
 
 ### Cercopes (Demo Agent)
 
