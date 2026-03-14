@@ -2,6 +2,9 @@
 
 A [Mythic](https://github.com/its-a-feature/Mythic)  C2 profile and demo agent that routes all command and control traffic over Tailscale/Headscale mesh VPN networks using WireGuard encryption.
 
+<p align="center"> <img src="https://media.mythopedia.com/5apOBzylgdTTST8GuDD7JL/fe31a0be3abf23ae82405a7fddabcd2b/jupiter-transforming-the-cercopes-into-monkets-by-antonio-tempesta-1606-rijksmusem.jpg?w=1280&q=60&auto=compress,format" width="400">
+
+
 > **For authorized security testing and research only.**
 
 ## Components
