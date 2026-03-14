@@ -71,7 +71,7 @@ For Headscale, set `provider` to `"headscale"` and `control_url` to your Headsca
 
 ## Integrating Tailscale into Other Agents
 
-The Tailscale C2 profile is agent-agnostic. Any Mythic agent can use it by embedding a Tailscale client and sending standard Mythic HTTP messages through the tailnet.
+The Tailscale C2 profile is agent-agnostic. Any Mythic agent can use it by embedding a Tailscale client and sending standard Mythic HTTP messages through the tailnet. The server also supports direct TCP connections for less overhead (HTTP and base64), which allows very fast socks connections.
 
 ### libtailscale
 
